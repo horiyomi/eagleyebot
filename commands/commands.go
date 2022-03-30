@@ -26,18 +26,18 @@ func StartCommand(c tele.Context) error {
 // BalanceThresholdCommand shows all linked wallet balances and there alert threshold if any
 func BalanceThresholdCommand(c tele.Context) error {
 	return c.Send(`
-		BTC: $40,000
-		ETH: $3,400
-		ADA: $6,000
+		ATOM: $30.29
+		OSMO: $4.50
+		CRO: $0.4203
 	`)
 }
 
 // NetworkListCommand - Fetch available connected nodes
 func NetworkListCommand(c tele.Context) error {
 	return c.Send(`All Networks Available
-		Cardano
-		Ethereum
 		Cosmos
+		Osmosis
+		Cro
 	
 	`)
 }
