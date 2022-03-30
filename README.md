@@ -1,9 +1,12 @@
 # eagleyebot is a Telegram Bot
 
-#WIP
-`
+#WIP \n
+
+```
 This bot will be an eagle eye for all earnings report, balance threshold alerts e.t.c
-`
+
+The bot is based on https://github.com/tucnak/telebot
+```
 
 # TODOS
     i. Create commands for handling major commads
